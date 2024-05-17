@@ -1,0 +1,67 @@
+body {
+  background: rgba(248, 229, 15, 0.6);
+}
+
+h1,
+h2 {
+  text-align: center;
+  font-family: "Poetsen One", sans-serif;
+  font-weight: 100;
+  color: #244201;
+}
+
+.container {
+  width: 600px;
+  background-color: white;
+  display: block;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+img {
+  max-width: 100%;
+}
+p {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  display: block;
+  margin: 20px auto;
+}
+footer {
+  text-align: center;
+}
+
+.button-dark {
+  display: block;
+  margin: 10px auto;
+  color: black;
+  background: white;
+  font-size: 11px;
+  transition: all 150ms ease-in-out;
+}
+
+.button-dark:hover {
+  color: white;
+  background: black;
+  cursor: pointer;
+}
+
+.button-experience {
+  display: block;
+  margin: 10px auto;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 7px;
+  border: 1px solid yellow;
+  transition: all 150ms ease-in-out;
+  background: white;
+  color: orangered;
+}
+
+.button-experience:hover {
+  background: orangered;
+  color: white;
+  cursor: pointer;
+}
