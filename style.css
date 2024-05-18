@@ -94,7 +94,7 @@ footer {
   border-radius: 10px;
 }
 
-.button-dark:hover {
+.button-theme:hover {
   color: black;
   background: white;
   cursor: pointer;
