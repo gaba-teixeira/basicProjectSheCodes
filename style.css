@@ -51,6 +51,12 @@ footer {
   border: solid 1px black;
 }
 
+.dark .button-experience:hover {
+  color: white;
+  background: black;
+  border: solid 1px white;
+}
+
 .dark h1 {
   color: white;
 }
